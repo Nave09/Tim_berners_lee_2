@@ -1,0 +1,67 @@
+body {
+    text-align: center;
+    color: aqua;
+    
+    
+}
+
+#welcome {
+    opacity: 0.8;
+    bottom: 0;
+    height: 800px;
+    width: 100%;
+    background: linear-gradient(#084001 50%, #450242 100%);
+    z-index: 10;
+    
+}
+
+#image1 {
+    margin-top: 50px;
+    width: 200px;
+    height: 250px;
+    border-radius: 50%;
+    border-width: thick;
+    border-style: double;
+    border-color: darkblue;
+    transform: transition;
+    animation-name: tim-berners-lee;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes tim-berners-lee {
+    from {box-shadow: 1px 1px 100px red}
+    to {box-shadow: 1px 1px 100px yellow}
+}
+
+#name {
+    font-family: 'Liu Jian Mao Cao', cursive;
+}
+
+.class1 {
+    width: 150px;
+    height: 5px;
+    background-color: black;
+    align-items: center;
+    margin: 8px auto;
+}
+
+h1 {
+    color: blue;
+    font-size: 30px;
+    font-family: cursive;
+    text-shadow: 5px 5px 5px green; 
+}
+
+#Contact_details {
+    background-color: crimson;
+    padding-top: 15px;
+    
+}
+#Contact_details h3 {
+    display: inline;
+}
+#Contact_details a {
+    text-decoration: none;
+    color: greenyellow;
+}
